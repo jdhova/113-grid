@@ -125,3 +125,39 @@ a:hover {
   font-size: 64px;
   font-family: var(--font);
 }
+
+/* 3rd section starts here */
+
+.section-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+  background-color: var(--brown);
+}
+
+.third-page-info {
+  position: relative;
+  left: 20%;
+  color: var(--white);
+}
+
+.third-page-info h3 {
+  font-size: 40px;
+
+  color: var(--white);
+  font-family: var(--font);
+  padding-top: 50px;
+}
+
+.third-page-info p {
+  color: var(--white);
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: var(--font);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
