@@ -199,3 +199,15 @@ a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 9vh;
+  background-color: var(--brown);
+  color: var(--white);
+  font-size: 20px;
+  font-family: var(--font);
+}
